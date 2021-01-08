@@ -6,7 +6,7 @@
 Esse repositório é referente as implementações e melhorias que fiz sobre o projeto de recriação do jogo da cobrinha/snake, abordado no bootcamp - HTML Web Developer da <a href="https://web.digitalinnovation.one/home">Digital Innovation One</a>.
 
 ## 📋 Informação do Projeto
-O projeto original reúne uma página pouco customizada, conforme abaixo.
+O projeto original reúne uma página simples com pouca customização, conforme abaixo.
 
 <p align="center">
     <img src="https://github.com/TamLuzs/SnakeGame/blob/main/layout/PainelOriginal.PNG">
