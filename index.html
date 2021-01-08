@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <title> Snake Game </title>
+
+    <link rel="shortcut icon" href="images/snake.png" type="image/x-icon">
+    <link rel="stylesheet" href="style/style.css">
+    <script defer src="script/script.js"></script>
+
+</head>
+<body>
+
+    <h1 id="title"> 
+        <img src="images/snake.png" alt="Icone de Cobra"> SNAKE GAME! <img src="images/snake.png" alt="Icone de Cobra">
+    </h1>
+
+    <div id="container">
+        <canvas id="snake" width="512" height="512"></canvas>  <!-- É a parte grafica da animação -->
+
+        <div id="menu">
+            <h2>Jogador </h2> 
+            <p id="name"> null </p>
+
+            <h2> Pontos </h2>
+            <p id="point"> 0 </p>
+
+            <h2 id="game-over"> </h2> <!-- Informação inserida via JS -->
+        
+            <h2> Funciona,com: </h2> 
+            <img class="command" src="images/computer.png" alt="">
+
+        </div>
+
+        
+    </div>
+    
+</body>
+</html>

@@ -1,0 +1,75 @@
+:root{
+  --green: #34a534;
+  --black: #000000;
+  --grey: #a6a6a6;
+  --white: #ffffff;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--black);
+    font-family: monospace;
+    color: var(--white);
+    
+}
+
+#container{
+    width: 735px;
+    background-color: var(--grey);
+    height: 518px;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+
+/* TITULO DO JOGO */
+#title{
+    color: var(--green);
+    font-size: 60px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#snake{
+    border-width: 3px;
+    border-style: solid;
+    border-color: var(--grey);
+}
+
+
+/* MENU LATERAL */
+#menu{
+    color: var(--black);
+    text-transform: uppercase;
+    text-align: center;
+    width: 335px;
+}
+
+h2{
+    font-size: 20px;
+}
+
+#game-over {
+    font-size: 35px;
+    text-decoration: overline;
+    font-style: oblique;
+    padding-bottom: 20px;
+}
+
+p{
+    color: var(--white);
+    font-size: 16px;
+    padding-bottom: 15px;
+}
